@@ -8,4 +8,4 @@ validation_key           "#{current_dir}/nix-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/nix"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
-cookbook_path            ["#{current_dir}/cookbooks"]
+cookbook_path            ["#{current_dir}/../cookbooks"]
